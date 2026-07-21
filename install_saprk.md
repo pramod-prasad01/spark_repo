@@ -12,7 +12,7 @@
 
 ## 3. Configure Your Environment Variables
 ## Add Java and Spark configurations to your zsh profile
->echo 'export JAVA_HOME=$(/usr/libexec/java_home)' >> ~/.zshrc
+>echo 'export JAVA_HOME=$(/usr/libexec/java_home -v 17)' >> ~/.zshrc
 >echo 'export SPARK_HOME="/opt/homebrew/opt/apache-spark/libexec"' >> ~/.zshrc
 >echo 'export PATH="$SPARK_HOME/bin:$PATH"' >> ~/.zshrc
 
